@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="99f5124797f021107674b846f053af73" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:MistyRose;33:LavenderBlush;66:GhostWhite;90:Azure,target_field=target" label=" % complete" max_length="15" name="complete" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for" max_length="40" name="requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request type" max_length="40" name="request_type" type="string"/>
+        <element choice="1" label="jelizaveta" max_length="40" name="request_type_jelizaveta" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HR" value="1"/>
+                <element inactive_on_update="false" label="Legal" value="2"/>
+            </choice>
+        </element>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="What needed" max_length="40" name="what_needed" type="string"/>
+        <element label="When needed" max_length="40" name="when_needed" type="due_date"/>
+    </element>
+</database>
