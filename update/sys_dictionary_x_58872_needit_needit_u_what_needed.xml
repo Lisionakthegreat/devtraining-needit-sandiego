@@ -11,7 +11,7 @@
         <column_label>What needed</column_label>
         <comments/>
         <create_roles/>
-        <default_value>legal 1</default_value>
+        <default_value>hr1</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_58872_needit_needit</name>
@@ -55,7 +55,7 @@
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

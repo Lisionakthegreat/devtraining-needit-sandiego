@@ -17,7 +17,7 @@
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Research 1</label>
+            <label>Human Resources 1</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
@@ -33,16 +33,16 @@
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Research 2</label>
+            <label>Human Resources 2</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-02-16 10:48:06</sys_created_on>
+            <sys_created_on>2023-02-17 09:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>hr 2</value>
+            <value>hr2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -55,10 +55,10 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-02-16 10:48:06</sys_created_on>
+            <sys_created_on>2023-02-17 09:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>facilities 1</value>
+            <value>facilities1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -71,10 +71,10 @@
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-02-16 10:48:06</sys_created_on>
+            <sys_created_on>2023-02-17 09:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>facilities 2</value>
+            <value>facilities2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -87,10 +87,10 @@
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-02-16 10:48:06</sys_created_on>
+            <sys_created_on>2023-02-17 09:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>legal 1</value>
+            <value>legal1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -103,10 +103,10 @@
             <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-02-16 10:48:06</sys_created_on>
+            <sys_created_on>2023-02-17 09:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>legal 2</value>
+            <value>legal2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -139,6 +139,22 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>your_choice2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 08:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>other</value>
         </sys_choice>
     </sys_choice>
 </record_update>
